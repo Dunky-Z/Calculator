@@ -32,3 +32,8 @@ function num_1_click() {
 - 用switch，匹配每个按钮
 
 ### 实现四则运算
+用Number
+
+### 实现小数点
+
+### 实现退位键

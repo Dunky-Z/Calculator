@@ -1,10 +1,11 @@
 * {
+    font-size: 20pt;
     margin: 0px;
     padding: 0px;
 }
 
 div {
-    width: 500px;
+    width: 450px;
 }
 
 #div1 {
@@ -21,8 +22,15 @@ input[type="button"] {
 }
 
 input[type="text"] {
-    width: 400px;
+    width: 410px;
     height: 50px;
     text-align: right;
     background-color: white;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+input[type="button"]:hover {
+    background-color: salmon;
+    border: 1px solid;
 }

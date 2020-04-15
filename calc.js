@@ -14,7 +14,30 @@ function init() {
                     num.value = num.value + this.value;
                 }
             } else {
-                alert("2");
+                var btn_num = this.value;
+                switch (btn_num) {
+                    case "+":
+                        alert("q");
+                        break;
+                    case "-":
+                        alert("s");
+                        break;
+                    case "*":
+                        alert("q");
+                        break;
+                    case "/":
+                        alert("s");
+                        break;
+                    case "c":
+                        alert("s");
+                        break;
+                    case "←":
+                        alert("s");
+                        break;
+                    case "+/-":
+                        alert("s");
+                        break;
+                }
             }
         }
     }

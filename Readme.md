@@ -44,5 +44,6 @@ function num_1_click() {
 ### 实现正负号
 每次按下让当前数乘以-1
 
-## 界面
-![20200416172140](https://raw.githubusercontent.com/Dunky-Z/MarkdownImageBed/master/img/20200416172140.png)
+## 界面 
+
+![20200416172406](https://raw.githubusercontent.com/Dunky-Z/MarkdownImageBed/master/img/20200416172406.png)

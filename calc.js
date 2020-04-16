@@ -95,7 +95,9 @@ function sign(n) {
  * 退位键
  */
 function back(n) {
+    //每次使数字少一位
     n = n.substr(0, n.length - 1);
+    //如果退到最后一位使文本框显示数字0
     if (isNull(n)) {
         n = 0;
     }

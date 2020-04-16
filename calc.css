@@ -39,23 +39,7 @@ input[type="button"] {
     border: 0px;
 }
 
-input[value="/"] {
-    color: rgb(9, 203, 176);
-}
-
-input[value="*"] {
-    color: rgb(9, 203, 176);
-}
-
-input[value="-"] {
-    color: rgb(9, 203, 176);
-}
-
-input[value="+"] {
-    color: rgb(9, 203, 176);
-}
-
-input[value="m"] {
+input[opt="opt"] {
     color: rgb(9, 203, 176);
 }
 
@@ -76,5 +60,9 @@ input[type="text"] {
 
 input[type="button"]:hover {
     background-color: rgb(9, 203, 176);
-    border: 1px solid;
+    border-radius: 45px;
+}
+
+input[opt="opt"]:hover {
+    color: white;
 }
